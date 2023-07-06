@@ -1,1 +1,7 @@
 //adding tags to the commit trial
+
+git tag <tag_name> <commit_sha>
+
+In order to create an annotated tag for the first commit in your Git history, you would execute the following command
+
+$ git tag -a v1.0 cab6e1b -m "Tagged the first commit with v1.0"
